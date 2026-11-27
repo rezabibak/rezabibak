@@ -1,0 +1,31 @@
+name: Skyline
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # every day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/skyline.py", ".github/workflows/skyline.yml"]
+
+permissions:
+  contents: write
+
+concurrency: skyline
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/skyline.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/skyline.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update contribution skyline"
+          git push
