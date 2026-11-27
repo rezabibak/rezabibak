@@ -1,1 +1,241 @@
-<div align="center">\n\n<img src="./assets/hero.svg" alt="Reza Bibak — Java Backend Engineer" width="100%">\n\n## Java Backend Engineer\n\n**Java • Spring Boot • JPA / Hibernate • PostgreSQL • REST • Docker**\n\n[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seyedrezabibak/)\n[![Email](https://img.shields.io/badge/Email-Contact-111827?style=flat-square&logo=gmail&logoColor=white)](mailto:seyedrezabibak@gmail.com)\n\n</div>\n\n---\n\n## // java.backend\n\nI build backend applications with **Java and Spring Boot**, with a focus on understanding what happens behind the annotations — dependency injection, transactions, persistence, HTTP, concurrency and database access.\n\n> **Write backend code that is predictable, testable and easy to operate.**\n\n```java\n@RestController\n@RequiredArgsConstructor\nclass DeveloperController {\n\n    private final BackendService backend;\n\n    @GetMapping("/api/hello")\n    ResponseEntity<String> hello() {\n        return ResponseEntity.ok(backend.build());\n    }\n}\n```\n\n## // spring.boot\n\n**What I am actively working with:**\n\n| Area | Technologies |\n|---|---|\n| Core | Java, OOP, Collections, Generics, Streams, Multithreading, JVM |\n| Spring | Spring Boot, IoC / DI, Beans, Spring MVC, REST, Validation |\n| Persistence | JPA, Hibernate, Spring Data JPA, Transactions |\n| Security | Spring Security, JWT, Authentication / Authorization |\n| Database | PostgreSQL, MySQL, SQL, Query Optimization |\n| Infrastructure | Docker, Linux, NGINX |\n| Messaging | Redis, RabbitMQ, Kafka |\n| Build & Ops | Maven, Git, Actuator, DevTools |\n\n## // concepts.i.care.about\n\n```text\nHTTP request\n     │\n     ▼\nController\n     │\n     ▼\nService ────────► Transaction\n     │                 │\n     ▼                 ▼\nRepository ───────► JPA / Hibernate\n                       │\n                       ▼\n                  PostgreSQL\n```\n\n\nI am particularly interested in:\n\n- **IoC & Dependency Injection** — how Spring creates and manages objects.\n- **Transactions** — consistency, propagation and what actually happens at the database layer.\n- **JPA / Hibernate** — entity lifecycle, persistence context, lazy loading and query behavior.\n- **REST APIs** — resource design, validation, error handling and clean boundaries.\n- **Spring Security** — authentication, authorization and JWT-based security.\n- **Concurrency** — threads, synchronization, executors and safe concurrent code.\n- **Database engineering** — indexes, transactions, SQL and application/database boundaries.\n\n## // selected.projects\n\n### ☕ [Pomodoro Sky](https://github.com/rezabibak/Pomodoro-Gnome)\n\nA GNOME Shell 45+ Pomodoro extension built with **GJS**, featuring automatic focus/break cycles, notifications, sound and in-app settings.\n\n### 🎓 [University — Student Registration System](https://github.com/rezabibak/University)\n\nA Java/MySQL application using **JDBC, HikariCP, DAO and Factory Pattern**. A practical project for Java fundamentals, database access and application architecture.\n\n### 🧩 [CustomCollections](https://github.com/rezabibak/CustomCollections)\n\nA Java project for understanding collection behavior and implementing custom data structures.\n\n### 🛠️ [MyZedConfigure](https://github.com/rezabibak/MyZedConfigure)\n\nMy personal Zed editor configuration and development-environment setup.\n\n## // tech.stack\n\n<div align="center">\n\n![Java](https://img.shields.io/badge/Java-21%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)\n![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)\n![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)\n![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)\n![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)\n![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)\n\n![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)\n![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white)\n![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)\n![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)\n![Kafka](https://img.shields.io/badge/Kafka-111827?style=for-the-badge&logo=apachekafka&logoColor=white)\n![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)\n\n</div>\n\n## // github.signal\n\n<div align="center">\n\n<img src="https://github-readme-stats.vercel.app/api?username=rezabibak&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="170">\n<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rezabibak&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="170">\n\n<br>\n\n<img src="https://streak-stats.demolab.com?user=rezabibak&theme=transparent&hide_border=true" height="170">\n\n</div>\n\n## // learning.mode\n\n```text\nNOW\n ├─ Java fundamentals → deeper understanding\n ├─ Spring Boot       → REST / Security / Data\n ├─ Hibernate         → persistence & internals\n ├─ SQL               → PostgreSQL / MySQL\n └─ System Design     → APIs / scalability / distributed systems\n```\n\n## // whoami\n\nI'm a Software Engineering student and **Java Backend Developer in progress**, building projects to turn theory into production-oriented engineering skills.\n\nI enjoy going one level deeper than "it works":\n\n**Why does Spring create this bean?**  \n**When does this transaction actually start?**  \n**What SQL does Hibernate generate?**  \n**What happens when two requests hit the same resource?**\n\nThat is the part of backend engineering I want to master.\n\n<div align="center">\n\n### `build. ship. improve.`\n\n</div>
+<div align="center">
+
+<img src="./assets/hero.svg" alt="Reza Bibak — Java Backend Engineer" width="100%">
+
+### Java Backend Engineer
+
+**Java 25 · Spring Boot · Spring Security · JPA / Hibernate · PostgreSQL · REST APIs**
+
+<a href="https://www.linkedin.com/in/seyedrezabibak/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:seyedrezabibak@gmail.com">
+  <img src="https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+</a>
+
+</div>
+
+---
+
+## `~/java/backend`
+
+I build backend applications with **Java and Spring Boot**, with a strong interest in what happens underneath the annotations: dependency injection, transactions, persistence, HTTP, concurrency and database behavior.
+
+> **My goal:** write backend systems that are predictable, testable, maintainable and easy to operate.
+
+```java
+@RestController
+@RequiredArgsConstructor
+@RequestMapping("/api")
+class DeveloperController {
+
+    private final BackendService backend;
+
+    @GetMapping("/hello")
+    ResponseEntity<String> hello() {
+        return ResponseEntity.ok(backend.build());
+    }
+}
+```
+
+---
+
+## `spring.context`
+
+The part of Spring I enjoy most is understanding the path from an HTTP request to the database.
+
+```mermaid
+flowchart LR
+    A["HTTP Request"] --> B["@RestController"]
+    B --> C["@Service"]
+    C --> D["@Transactional"]
+    D --> E["@Repository"]
+    E --> F["JPA / Hibernate"]
+    F --> G[("PostgreSQL")]
+
+    H["Spring IoC Container"] -.-> B
+    H -.-> C
+    H -.-> E
+```
+
+### Core concepts
+
+| Layer | What I focus on |
+|---|---|
+| **Java** | OOP · Collections · Generics · Streams · Exceptions · Multithreading · JVM |
+| **Spring Core** | IoC · DI · Beans · Configuration · Component Scanning · Bean Lifecycle |
+| **Spring Web** | MVC · REST · Validation · Exception Handling · HTTP |
+| **Persistence** | JPA · Hibernate · Entity Lifecycle · Persistence Context · Lazy Loading |
+| **Transactions** | `@Transactional` · ACID · Propagation · Isolation · Rollback |
+| **Security** | Spring Security · JWT · Authentication · Authorization |
+| **Database** | PostgreSQL · MySQL · SQL · Indexes · Query Optimization |
+| **Infrastructure** | Docker · Linux · NGINX · Git · Maven |
+| **Messaging** | Redis · RabbitMQ · Kafka |
+| **Observability** | Spring Actuator · Application Metrics · Health Checks |
+
+---
+
+## `backend.mindset`
+
+I like asking the questions behind the framework:
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                       REQUEST LIFECYCLE                       │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  Client                                                       │
+│    │                                                         │
+│    ▼                                                         │
+│  Controller ──► Validation ──► Service                      │
+│                                      │                       │
+│                                      ▼                       │
+│                              Transaction Boundary            │
+│                                      │                       │
+│                                      ▼                       │
+│                              Repository / JPA                │
+│                                      │                       │
+│                                      ▼                       │
+│                                  Database                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+- **IoC / DI** — Why does Spring create this object?
+- **Transactions** — When does a transaction actually begin and roll back?
+- **Hibernate** — What SQL is generated and why?
+- **JPA** — What is happening inside the persistence context?
+- **Concurrency** — What happens when two requests modify the same resource?
+- **REST** — Where should responsibilities and boundaries live?
+- **Database** — What is the real cost of an apparently simple query?
+
+---
+
+## `selected.projects`
+
+### ☕ [Pomodoro Sky](https://github.com/rezabibak/Pomodoro-Gnome)
+
+A GNOME Shell 45+ Pomodoro extension built with **GJS**, featuring automatic focus/break cycles, notifications, sound and in-app settings.
+
+### 🎓 [University — Student Registration System](https://github.com/rezabibak/University)
+
+A Java/MySQL application using **JDBC, HikariCP, DAO and Factory Pattern**, built to practice Java fundamentals, database access and application architecture.
+
+### 🧩 [CustomCollections](https://github.com/rezabibak/CustomCollections)
+
+A Java project focused on understanding collection behavior and implementing custom data structures.
+
+### 🛠️ [MyZedConfigure](https://github.com/rezabibak/MyZedConfigure)
+
+My personal Zed editor configuration and development-environment setup.
+
+---
+
+## `stack`
+
+<div align="center">
+
+### Backend
+
+![Java](https://img.shields.io/badge/Java_25-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
+### Data
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### Infrastructure & Messaging
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-111827?style=for-the-badge&logo=apachekafka&logoColor=white)
+
+### Tooling
+
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+</div>
+
+---
+
+## `github.signal`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=rezabibak&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true" height="170" alt="GitHub stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rezabibak&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="170" alt="Top languages">
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=rezabibak&theme=transparent&hide_border=true" height="170" alt="GitHub streak">
+
+</div>
+
+---
+
+## `learning.mode`
+
+```text
+                    JAVA BACKEND ROADMAP
+
+        ┌──────────────┐
+        │   Java Core  │
+        └──────┬───────┘
+               │
+               ▼
+        ┌──────────────┐
+        │ Spring Boot  │
+        └──────┬───────┘
+               │
+       ┌───────┼────────┐
+       ▼       ▼        ▼
+   REST API  Security  Data
+       │       │        │
+       └───────┼────────┘
+               ▼
+        ┌──────────────┐
+        │   Hibernate  │
+        │     + JPA    │
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │ SQL / Database│
+        └──────┬───────┘
+               ▼
+        ┌──────────────┐
+        │ System Design│
+        └──────────────┘
+```
+
+Currently going deeper into **Java → Spring Boot → Hibernate/JPA → SQL → System Design**, while building projects to turn theory into practical backend engineering skills.
+
+---
+
+## `whoami`
+
+```text
+name        = Reza Bibak
+role        = Java Backend Developer
+focus       = Backend Engineering
+education   = Software Engineering
+location    = Tehran, Iran
+github      = github.com/rezabibak
+linkedin    = linkedin.com/in/seyedrezabibak
+```
+
+I am interested in backend engineering where **clean architecture, correct transactions, reliable APIs and database behavior** matter more than simply making the code run.
+
+<div align="center">
+
+### `build. ship. improve.`
+
+<sub>Java • Spring • Backend Engineering • Continuous Learning</sub>
+
+</div>
