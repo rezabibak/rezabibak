@@ -2,7 +2,7 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Reza Bibak, Java Backend Engineer from Tehran">
 
-<a href="https://www.linkedin.com/in/seyedrezabibak/"><img src="./assets/btn-linkedin.svg" width="220" alt="LinkedIn"></a>&nbsp;&nbsp;<a href="mailto:YOUR_EMAIL"><img src="./assets/btn-email.svg" width="220" alt="Email me"></a>
+<a href="https://www.linkedin.com/in/seyedrezabibak/"><img src="./assets/btn-linkedin.svg" width="220" alt="LinkedIn"></a>&nbsp;&nbsp;<a href="mailto:Seyedrezabibak@gmail.com"><img src="./assets/btn-email.svg" width="220" alt="Email me"></a>
 
 <br><br>
 
